@@ -1,0 +1,59 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-custom {
+    height: 54px;
+    background-color: #fff !important;
+}
+
+
+input.empty {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    background-color: #FAFAFA;
+}
+
+::placeholder {
+    font-size: 14px;
+    color: rgb(173, 167, 167);
+}
+
+.navbar-nav {
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.storyphoto {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid rgb(238, 39, 82);
+    margin-right: 7px;
+}
+
+.storytext {
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: black;
+}
+
+.rightpanellinks {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.rightpanellinks:hover {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.postuserfont {
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: black;
+}
