@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body
+        {
+            margin: 0;
+            padding: 0;
+        }
+
+        .logo-container{
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .logo-container img {
+            display: block;
+            width: 351px;
+            height: 113px;
+            margin: 0 auto;
+        }
+
+
+        #search-bar {
+            display: block;
+            width: 1133px;
+            height: 62px;
+            margin: 0 auto;
+            background-color: #EEEEEE;
+        }
+
+        input[type=text] {
+            width: 293px;
+            height: 21px;
+            box-sizing: border-box;
+        }
+
+        input[type=text], label {
+            display: block;
+            margin: 0 auto 0;
+            text-align: center;
+        }
+
+        .button-holder{
+            text-align: center;
+        }
+
+
+        .footer-wrapper{
+            width: 1133px;
+            height: 75px;
+            margin: 2px auto;
+        }
+
+        .column1{
+            background-color: #7EE6DA;
+            width:417px;
+            height: 75px;
+            float: left;
+            text-align: center;
+        }
+
+        .column1>p {
+            margin-top: 10px;
+            margin-bottom: 0px;
+
+        } 
+
+        .column1>a {
+            margin-top: 0px;
+        } 
+
+        .column2 {
+            background-color: #70CCC3;
+            width:243px;
+            height: 75px;
+            margin: 0 2px 0 2px;
+            float: left;
+            text-align: center;
+        }
+
+        .column2>a {
+            font-size: 12px;
+        }
+
+        .column3 {
+            background-color: #62B3AB;
+            width:469px;
+            height: 75px;
+            float: left;
+        }
+
+        .column3>p { 
+            text-align: center;
+            font-size: 13px;
+            margin: 0 !important;    
+            padding: 0px;
+            
+        }
+
+        .column3 [type=text] { 
+            width: 153px;
+            height: 21px;
+            box-sizing: border-box;
+        }
+
+        .column3>form { 
+            text-align: center;
+        }
+
+        .column3 [type=text] {
+            text-align: left;
+
+        }
+
+        .column3 [type=submit] {
+            display:inline-block;
+        }
+
+        .column3 a {
+            font-size: 13px;
+        }    
+
+
+        #copyright{
+            font-size: 13px;
+            text-align: center;  
+            margin-top: 16px;
+        }
+
+    </style>
+    <title>Google!</title>
+</head>
+<body>
+
+    <div class="logo-container">
+        <img src="https://web.archive.org/web/19981202230410im_/http://www.google.com/google.jpg" alt="Google Logo">
+
+    </div>
+
+    <div class="content-container">
+        <div id="search-bar">
+            <form action="submit">
+                <label for="search">Search the web using Google!</label>
+                <input type="text" id="search" name="search">
+                <div class="button-holder">
+                    <input type="submit" value="Google Search">
+                    <input type="submit" value="I'm feeling lucky">
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <div class="footer-container">
+        <div class="footer-wrapper">
+            <div class="column1">
+                <p>Special Searches</p>
+                <a href="#">Stanford Search</a> <br>
+                <a href="#">Linux Search</a>
+            </div>
+            <div class="column2">
+                <a href="#">Help!</a> <br>
+                <a href="#">About Google!</a> <br>
+                <a href="#">Company Info!</a> <br>
+                <a href="#">Google! Logos</a>
+            </div>
+            <div class="column3">
+                <p>Get Google! <br> updates monthly:</p>
+                <form action="">
+                    <input type="text" id="mail" name="mail" value="your e-mail">
+                    <input type="submit" value="Subscribe">
+                    <a href="#">Archive</a>
+                </form>       
+            </div>
+        </div>
+        <p id="copyright" > Copyright ©1998 Google Inc.</p>
+    </div> 
+
+</body>
+</html>
