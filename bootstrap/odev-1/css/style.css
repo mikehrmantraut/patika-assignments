@@ -1,0 +1,16 @@
+body {
+    background-color: #e9ecef;
+}
+
+.sec {
+    display: table;
+    margin: 0 auto;
+}
+
+.about h1 {
+    color: purple;
+}
+
+.product h1 {
+    color: purple;
+}
