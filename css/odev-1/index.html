@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anasayfa</title>
+    <style>
+        body {
+            background-image: url("https://cdn.pixabay.com/photo/2016/06/20/21/46/sport-shoes-1470061_960_720.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        li {
+            float: right;
+
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-family: monospace;
+            font-weight: bold;
+            font-size: 32px;
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+
+        .urunler {
+            float: left;
+            margin-left: 8%;
+        }
+
+        .iletisim {
+            margin-right: 8%;
+        }
+
+        .hakkimizda {
+            margin-right: 10%;
+        }
+        
+        .homepage {
+            float: left;
+            margin-left: 15%;
+        }
+
+        .home {
+            padding-top: 150px;
+
+        }
+        
+        .home h1 {
+            font-family: monospace;
+            color: #000;
+            text-align: center; 
+        }
+
+        .wrapper{
+            position: fixed;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            
+        }
+
+        .wrapper a{
+            display: block;
+            width: 200px;
+            height: 40px;
+            line-height: 40px;
+            font-size: 18px;
+            font-family: monospace;
+            font-weight: bold;
+            text-decoration: none;
+            color: #333;
+            border: 2px solid #333;
+            letter-spacing: 2px;
+            text-align: center;
+            position: relative;
+            transition: all .35s;
+        }
+
+        .wrapper a span{
+            position: relative;
+            z-index: 2;
+        }
+
+        .wrapper a:after{
+            position: absolute;
+            content: "";
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 100%;
+            background: #ff003b;
+            transition: all .35s;
+        }
+
+        .wrapper a:hover{
+            color: #fff;
+        }
+
+        .wrapper a:hover:after{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="homepage">
+                    <a href="index.html">
+                        Anasayfa
+                    </a>
+                </li>
+                <li class="urunler">
+                    <a href="products.html">
+                        Ürünlerimiz
+                    </a>
+                </li>
+                <li class="hakkimizda">
+                    <a href="about-us.html">
+                        Hakkımızda
+                    </a>
+                </li>
+                <li class="iletisim">
+                    <a href="contact.html">
+                        İletişim
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div class="home">
+            <h1>
+                Yeni Çıkan Ürünlerimizi İncelemek İçin 
+                <div class="wrapper">
+                    <a href="products.html">
+                        <span>
+                            Tıklayın
+                        </span>
+                    </a>
+                </div>
+                
+            </h1>
+        </div>
+    </section>
+</body>
+</html>
