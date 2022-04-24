@@ -1,2 +1,2 @@
 # patika-assignments
-Patika.dev'de verilen HTML-CSS-Bootstrap ödevlerinin olduğu repo.
+Patika.dev'de verilen ödevlerin olduğu repo.
