@@ -16,7 +16,7 @@ SELECT * FROM country WHERE country LIKE('%n') AND length(country) >= 6;
   <li><b>film</b> tablosunda bulunan title sütunundaki <b>film</b> isimlerinden en az 4 adet büyük ya da küçük harf farketmesizin 'T' karakteri içeren film isimlerini sıralayınız.</li><br/>
   
 ```
-SELECT title FROM film WHERE title ILIKE('%t%t%t%t');
+SELECT title FROM film WHERE title ILIKE('%T%%T%%T%%T%');
 ```
   
   <li><b>film</b> tablosunda bulunan tüm sütunlardaki verilerden <b>title</b> 'C' karakteri ile başlayan ve uzunluğu (length) 90 dan büyük olan ve rental_rate 2.99 olan verileri sıralayınız.</li><br/>
