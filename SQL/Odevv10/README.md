@@ -1,4 +1,4 @@
-Patika SQL Ödev 9
+Patika SQL Ödev 10
 --
 Aşağıdaki sorgu senaryolarını <b>dvdrental</b> örnek veri tabanı üzerinden gerçekleştiriniz.
 <ol>
