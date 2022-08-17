@@ -4,7 +4,7 @@ Anlatım ne kadar sezgisel olup ezberden uzak olursa o kadar iyi. <br/>
 Bu blog gönderisinin linkini paylaşırsan çok iyi olur ✔ (sezgisel olarak bir yazı yazarken uzun sürebilir, <br/>
 önemli olan üzerine düşünmek, uzun sürmesi şevkinizi kırmasın, gayet doğal👍)<br/>
 
----------------------------------------------------------------
+---
 <h1>Verinin Önemi </h1>
 Verinin çağımızın petrolü olarak adlandırıldığını hepimiz duymuşuzdur. <br/>
 90'lı yıllardan bu yana internet ve bilişim alanındaki gelişmeler bir ağ toplumu ortaya çıkarmıştır.<br/>
